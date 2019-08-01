@@ -5,30 +5,36 @@
     <title>Title</title>
 </head>
 <body>
-
+<h3>myErrorPage</h3>
 <table border="1">
     <tr>
         <td>custommsg</td>
+        <!--/*@thymesVar id="custommsg" type="ch"*/-->
         <td th:text="${custommsg}"></td>
     </tr>
     <tr>
         <td>timestamp</td>
+        <!--/*@thymesVar id="timestamp" type=""*/-->
         <td th:text="${timestamp}"></td>
     </tr>
     <tr>
         <td>status</td>
+        <!--/*@thymesVar id="status" type="ch"*/-->
         <td th:text="${status}"></td>
     </tr>
     <tr>
         <td>error</td>
+        <!--/*@thymesVar id="error" type="ch"*/-->
         <td th:text="${error}"></td>
     </tr>
     <tr>
         <td>message</td>
+        <!--/*@thymesVar id="message" type="ch"*/-->
         <td th:text="${message}"></td>
     </tr>
     <tr>
         <td>path</td>
+        <!--/*@thymesVar id="path" type="ch"*/-->
         <td th:text="${path}"></td>
     </tr>
 </table>

@@ -12,8 +12,8 @@ public class ErrorAttribute extends DefaultErrorAttributes{
     @Override
     public Map<String, Object> getErrorAttributes(WebRequest webRequest, boolean includeStackTrace) {
         Map<String, Object> errorAttributes = super.getErrorAttributes(webRequest, includeStackTrace);
-        errorAttributes.put("custommsg", "出错啦！");
-        errorAttributes.remove("error");
+        errorAttributes.put("custommsg", "出错啦！!");
+//        errorAttributes.remove("error");
         return errorAttributes;
     }
 }
