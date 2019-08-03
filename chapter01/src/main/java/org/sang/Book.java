@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "book") //映射绑定
+//@ConfigurationProperties(prefix = "book") //映射绑定
 public class Book {
     private Integer id;
     private String name;

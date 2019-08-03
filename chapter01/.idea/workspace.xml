@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/aop/AopController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/aop/aop/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/aop/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/IcoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/AopController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/aop/LogAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/IcoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/jquery3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/service/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/chapter01.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +72,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -134,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564319173270</updated>
-      <workItem from="1564666500354" duration="10171000" />
+      <workItem from="1564666500354" duration="17827000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
@@ -150,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564673390388</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AOP,添加网页图标ICO">
+      <created>1564822494048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564822494049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +171,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="全局数据控制，请求参数预处理，自定义错误页" />
     <MESSAGE value="自定义error视图,cors跨域支持" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义error视图,cors跨域支持" />
+    <MESSAGE value="AOP,添加网页图标ICO" />
+    <option name="LAST_COMMIT_MESSAGE" value="AOP,添加网页图标ICO" />
   </component>
   <component name="masterDetails">
     <states>
