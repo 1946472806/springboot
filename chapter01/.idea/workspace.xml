@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="" />
+    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/aop/AopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/aop/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/aop/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/IcoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/AopController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/aop/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/IcoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/jquery3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +81,11 @@
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springboot\springboot\chapter01\src\main\resources\static" />
+      <recent name="D:\springboot\springboot\chapter01" />
+      <recent name="D:\springboot\springboot\chapter01\src\main\resources\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springboot\springboot\chapter01\src\main\resources\static" />
       <recent name="D:\springboot\chapter01\src\main\resources\static" />
@@ -107,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564319173270</updated>
-      <workItem from="1564666500354" duration="5733000" />
+      <workItem from="1564666500354" duration="10171000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
