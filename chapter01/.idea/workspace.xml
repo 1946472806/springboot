@@ -2,33 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/mapper/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/JpaTableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/dao/JpaTableDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/JpaTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/service/JpaTableService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/CustomExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/CustomExceptionHandlerBak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/CustomExceptionHandlerBak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/ErrorAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/ErrorAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/GlobalConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/MyErrorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/MyErrorPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/CustomExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/CustomExceptionHandlerBak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/ErrorAttribute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/GlobalConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/MyErrorPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/dao/BookDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/config/TomcatConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/config/TomcatConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/chapter01.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/aop/AopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/aop/aop/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/aop/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/config/TomcatConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/config/TomcatConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/BookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/CorsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/FileUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/IcoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/mapper/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/CustomExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/CustomExceptionHandlerBak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/ErrorAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/GlobalConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/MyErrorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +68,8 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,6 +87,7 @@
   <component name="ProjectId" id="1OpFBVdv3ObRyp1uZlrFqXosYwH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -85,7 +96,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -149,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564319173270</updated>
       <workItem from="1564666500354" duration="18076000" />
-      <workItem from="1564897124982" duration="4281000" />
+      <workItem from="1564897124982" duration="22794000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
@@ -179,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564844066121</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="整合MyBatis">
+      <created>1564902394245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564902394245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +221,8 @@
     <MESSAGE value="自定义error视图,cors跨域支持" />
     <MESSAGE value="AOP,添加网页图标ICO" />
     <MESSAGE value="连接mysql,配置,增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="连接mysql,配置,增删改查" />
+    <MESSAGE value="整合MyBatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合MyBatis" />
   </component>
   <component name="masterDetails">
     <states>
