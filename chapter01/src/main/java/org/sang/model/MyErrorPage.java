@@ -1,4 +1,4 @@
-package org.sang;
+package org.sang.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.web.ServerProperties;

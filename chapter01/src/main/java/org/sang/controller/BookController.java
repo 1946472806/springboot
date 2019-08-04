@@ -1,9 +1,8 @@
 package org.sang.controller;
 
-import org.sang.Book;
+import org.sang.model.Book;
 import org.sang.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
@@ -44,7 +43,7 @@ public class BookController {
         System.out.println("addBook>>>"+i);
 
         Book b2 = new Book();
-        b2.setId(8);
+        b2.setId(11);
         b2.setName("朝花夕拾");
         b2.setAuthor("鲁迅");
         int updateBook = bookService.updateBook(b2);
@@ -53,7 +52,7 @@ public class BookController {
         Book b3 = bookService.getBookById(8);
         System.out.println("getBookById>>>"+b3);
 
-        int deleteBookById = bookService.deleteBookById(7);
+        int deleteBookById = bookService.deleteBookById(8);
         System.out.println("deleteBookById>>>"+deleteBookById);
 
         List<Book> allBooks = bookService.getAllBooks();

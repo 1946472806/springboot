@@ -1,4 +1,4 @@
-package org.sang;
+package org.sang.model;
 
 import org.springframework.boot.web.servlet.error.DefaultErrorAttributes;
 import org.springframework.stereotype.Component;

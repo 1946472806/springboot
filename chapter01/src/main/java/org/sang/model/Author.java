@@ -1,12 +1,12 @@
-package org.sang;
+package org.sang.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-//@ConfigurationProperties(prefix = "book") //映射绑定
-public class Book {
+@ConfigurationProperties(prefix = "author")
+public class Author {
     private Integer id;
     private String name;
     private String author;
@@ -15,7 +15,7 @@ public class Book {
 
     @Override
     public String toString(){
-        return "Book{" +
+        return "Author{" +
                 "id='" + id + '\'' +
                 "name='" + name + '\'' +
                 ", author='" + author + '\'' +
