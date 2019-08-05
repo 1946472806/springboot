@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/RedisTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/chapter01-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/chapter01-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/AopController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/aop/LogAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/aop/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/config/TomcatConfig$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/config/TomcatConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/ApiController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/BookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/CorsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/FileUploadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/IcoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/JpaTableController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/RedisController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/dao/BookDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/dao/JpaTableDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/mapper/BookMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/Author.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/CustomExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/CustomExceptionHandlerBak.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/ErrorAttribute.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/GlobalConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/JpaTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/MyErrorPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/RedisTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/service/JpaTableService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/dao/JpaTableDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/dao/JpaTableDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +127,7 @@
       <workItem from="1564897124982" duration="22954000" />
       <workItem from="1564923857114" duration="3969000" />
       <workItem from="1564928437371" duration="672000" />
-      <workItem from="1565007534601" duration="11184000" />
+      <workItem from="1565007534601" duration="11205000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
@@ -222,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564922788000</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="集成redis">
+      <created>1565020005880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565020005881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +204,8 @@
     <MESSAGE value="连接mysql,配置,增删改查" />
     <MESSAGE value="整合MyBatis" />
     <MESSAGE value="整合JPA（springboot的ORM）" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合JPA（springboot的ORM）" />
+    <MESSAGE value="集成redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成redis" />
   </component>
   <component name="masterDetails">
     <states>
