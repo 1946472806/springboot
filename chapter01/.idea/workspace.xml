@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/aop/service/RestFulService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/RestFulController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/dao/RestFulTableDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/RestfulTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/controller/JpaTableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/JpaTableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/dao/JpaTableDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/dao/JpaTableDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/model/JpaTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/JpaTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/service/JpaTableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/service/JpaTableService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/controller/JpaTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/JpaTableController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/dao/JpaTableDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/dao/JpaTableDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/model/JpaTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/model/JpaTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/service/JpaTableService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/service/JpaTableService.class" afterDir="false" />
-    </list>
+    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +129,7 @@
       <workItem from="1564923857114" duration="3969000" />
       <workItem from="1564928437371" duration="672000" />
       <workItem from="1565007534601" duration="11205000" />
-      <workItem from="1565090360287" duration="11712000" />
+      <workItem from="1565090360287" duration="11879000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
@@ -199,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565020005881</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JPA实现RESTFUL接口，返回json数据">
+      <created>1565104858898</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565104858898</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +214,8 @@
     <MESSAGE value="整合MyBatis" />
     <MESSAGE value="整合JPA（springboot的ORM）" />
     <MESSAGE value="集成redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成redis" />
+    <MESSAGE value="JPA实现RESTFUL接口，返回json数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA实现RESTFUL接口，返回json数据" />
   </component>
   <component name="masterDetails">
     <states>
