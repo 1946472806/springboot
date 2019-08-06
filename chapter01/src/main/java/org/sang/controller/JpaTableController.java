@@ -17,7 +17,7 @@ public class JpaTableController {
 
     @GetMapping("/findAll")
     public void findAll(){
-        PageRequest pageable = PageRequest.of(2,3);
+        PageRequest pageable = PageRequest.of(1,1);
         Page<JpaTable> page = jpaTableService.getJpaTableByPage(pageable);
         System.out.println("总页数:"+page.getTotalPages());
         System.out.println("总记录数:"+page.getTotalElements());
@@ -27,20 +27,20 @@ public class JpaTableController {
         System.out.println("每页记录数:"+page.getSize());
     }
 
-    @GetMapping("/search")
-    public void search(){
-        List<JpaTable> b1 = jpaTableService.getJpaTableByIdAndAuthor("鲁迅",10);
-        List<JpaTable> b2 = jpaTableService.getJpaTableByAuthorStartingWith("吴");
-        List<JpaTable> b3 = jpaTableService.getJpaTableByIdAndName("西",8);
-        List<JpaTable> b4 = jpaTableService.getJpaTableByPriiceGreaterThen(30F);
-        JpaTable b = jpaTableService.getMaxIdJpaTable();
-
-        System.out.println("b1:"+b1);
-        System.out.println("b2:"+b2);
-        System.out.println("b3:"+b3);
-        System.out.println("b4:"+b4);
-        System.out.println("b:"+b);
-    }
+//    @GetMapping("/search")
+//    public void search(){
+//        List<JpaTable> b1 = jpaTableService.getJpaTableByIdAndAuthor("鲁迅",10);
+//        List<JpaTable> b2 = jpaTableService.getJpaTableByAuthorStartingWith("吴");
+//        List<JpaTable> b3 = jpaTableService.getJpaTableByIdAndName("西",8);
+//        List<JpaTable> b4 = jpaTableService.getJpaTableByPriiceGreaterThen(30F);
+//        JpaTable b = jpaTableService.getMaxIdJpaTable();
+//
+//        System.out.println("b1:"+b1);
+//        System.out.println("b2:"+b2);
+//        System.out.println("b3:"+b3);
+//        System.out.println("b4:"+b4);
+//        System.out.println("b:"+b);
+//    }
 
     @GetMapping("/save")
     public void save(){

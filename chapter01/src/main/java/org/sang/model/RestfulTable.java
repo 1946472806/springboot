@@ -2,29 +2,23 @@ package org.sang.model;
 
 import javax.persistence.*;
 
-@Entity(name = "jpatable")
-public class JpaTable {
+@Entity(name = "t_restful")
+public class RestfulTable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "name",nullable = true)
     private String name;
-
     private String author;
-    private Float price;
 
-    @Transient
-    private String description;
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "RestfulTable{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", author='" + author + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' +
                 '}';
     }
 
@@ -40,15 +34,4 @@ public class JpaTable {
 
     public void setAuthor(String author){this.author=author;}
 
-    public Float getPrice(){return price;}
-
-    public void setPrice(Float price){this.price=price;}
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }

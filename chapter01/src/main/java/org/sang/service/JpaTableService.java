@@ -22,23 +22,23 @@ public class JpaTableService {
         return jpaTableDao.findAll(pageable);
     }
 
-    public List<JpaTable> getJpaTableByAuthorStartingWith(String author){
-        return jpaTableDao.getJpaTableByAuthorStartingWith(author);
-    }
+//    public List<JpaTable> getJpaTableByAuthorStartingWith(String author){
+//        return jpaTableDao.getJpaTableByAuthorStartingWith(author);
+//    }
 
-    public List<JpaTable> getJpaTableByPriiceGreaterThen(Float price){
-        return jpaTableDao.getJpaTableByPriceGreaterThan(price);
-    }
+//    public List<JpaTable> getJpaTableByPriiceGreaterThen(Float price){
+//        return jpaTableDao.getJpaTableByPriceGreaterThan(price);
+//    }
 
-    public JpaTable getMaxIdJpaTable(){
-        return jpaTableDao.getMaxIdJapTable();
-    }
+//    public JpaTable getMaxIdJpaTable(){
+//        return jpaTableDao.getMaxIdJapTable();
+//    }
 
-    public List<JpaTable> getJpaTableByIdAndAuthor(String author,Integer id){
+    public String getJpaTableByIdAndAuthor(String author,Integer id){
         return jpaTableDao.getJpaTableByIdAndAuthor(author,id);
     }
 
-    public List<JpaTable> getJpaTableByIdAndName(String name,Integer id){
+    public String getJpaTableByIdAndName(String name,Integer id){
         return jpaTableDao.getJpaTableByIdAndName(name,id);
     }
 }
