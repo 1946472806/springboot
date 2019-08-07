@@ -4,9 +4,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+import java.io.Serializable;
+
 @Component
 //@ConfigurationProperties(prefix = "book") //映射绑定
-public class Book {
+public class Book implements Serializable {
     private Integer id;
     private String name;
     private String author;
