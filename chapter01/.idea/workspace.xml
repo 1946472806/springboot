@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chapter01_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/JspController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/jsp/my.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/JspController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +201,7 @@
       <workItem from="1565007534601" duration="11205000" />
       <workItem from="1565090360287" duration="11879000" />
       <workItem from="1565175490939" duration="11520000" />
-      <workItem from="1565275014018" duration="4720000" />
+      <workItem from="1565275014018" duration="4766000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
@@ -282,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565192579055</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="集成jsp">
+      <created>1565280854189</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565280854189</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +310,8 @@
     <MESSAGE value="JPA实现RESTFUL接口，返回json数据" />
     <MESSAGE value="单元测试" />
     <MESSAGE value="集成ehcache缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成ehcache缓存" />
+    <MESSAGE value="集成jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成jsp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
