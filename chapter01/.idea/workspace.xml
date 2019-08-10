@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="" />
+    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/config/MyBatisSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/MyBatisSecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/mapper/UserTableMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/mapper/UserTableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/RoleTableSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/UserTableSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/service/MyBatisSecurityRegService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/service/SecurityRegService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/UserTableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/config/MyBatisSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/MyBatisSecurityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/controller/SecurityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/mapper/UserTableMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/mapper/UserTableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/RoleTableSecurity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/model/UserTableSecurity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/service/MyBatisSecurityRegService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/sang/service/SecurityRegService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webapp/WEB-INF/jsp/my.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB_INF/jsp/my.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +57,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Tag Library Descriptor" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -59,24 +87,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src/main/resources/static" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/webapp" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="E:/Spring Boot+Vue全栈开发实战/code/chapter10" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springboot\springboot\chapter01\src\main\resources\static" />
+      <recent name="D:\springboot\springboot\chapter01\src\main\java\webapp\WEB-INF\jsp" />
+      <recent name="D:\springboot\springboot\chapter01\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\springboot\springboot\chapter01" />
+      <recent name="D:\springboot\springboot\chapter01\src\main\resources\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\springboot\springboot\chapter01\src\main\resources\static" />
       <recent name="D:\springboot\chapter01\src\main\resources\static" />
       <recent name="D:\springboot\chapter01" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\springboot\springboot\chapter01\src\main\java\webapp\WEB-INF\jsp" />
-      <recent name="D:\springboot\springboot\chapter01\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\springboot\springboot\chapter01\src\main\resources\static" />
-      <recent name="D:\springboot\springboot\chapter01" />
-      <recent name="D:\springboot\springboot\chapter01\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,6 +230,7 @@
       <workItem from="1565090360287" duration="11879000" />
       <workItem from="1565175490939" duration="11520000" />
       <workItem from="1565275014018" duration="4766000" />
+      <workItem from="1565413247141" duration="22010000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
@@ -320,6 +349,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/sang/UnitTestCache.java</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/sang/service/MyBatisSecurityRegService.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
