@@ -2,6 +2,9 @@ package org.sang.controller;
 
 import org.sang.model.Author;
 import org.sang.model.Book;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,8 +18,16 @@ import java.util.Set;
 
 @RestController
 public class ApiController {
+    private final static Logger logger = LoggerFactory.getLogger(ApiController.class);
+
     @GetMapping("/test")
     public String testapi(){
+        logger.trace("这是跟踪日志");
+        logger.debug("这是调试日志");
+        //SpringBoot默认使用的是 info级别的;root级别
+        logger.info("这是自定义");
+        logger.warn("这是警告日志");
+        logger.error("这是错误日志");
         return "This is my first springboot.";
     }
 

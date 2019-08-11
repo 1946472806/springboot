@@ -22,22 +22,22 @@
     </properties>
 
     <dependencies>
-<!--        开发web必要依赖-->
+        <!--        开发web必要依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<!--        jpa相关依赖-->
+        <!--        jpa相关依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-<!--        thymeleaf相关-->
+        <!--        thymeleaf相关-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-<!--        redis相关依赖-->
+        <!--        redis相关依赖-->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-redis</artifactId>
@@ -52,12 +52,12 @@
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
         </dependency>
-<!--        aop相关依赖-->
+        <!--        aop相关依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
-<!--        mysql相关依赖-->
+        <!--        mysql相关依赖-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -73,25 +73,25 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-<!--            <version>5.0.7.RELEASE</version>-->
+            <!--            <version>5.0.7.RELEASE</version>-->
         </dependency>
-<!--        jdbc相关依赖-->
+        <!--        jdbc相关依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
-<!--        mybatis相关-->
+        <!--        mybatis相关-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>1.3.2</version>
         </dependency>
-<!--        RESTFUL相关-->
+        <!--        RESTFUL相关-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
-<!--        单元测试相关-->
+        <!--        单元测试相关-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -101,7 +101,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-<!--        ehcache缓存相关-->
+        <!--        ehcache缓存相关-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-cache</artifactId>
@@ -111,7 +111,7 @@
             <artifactId>ehcache</artifactId>
         </dependency>
 
-<!--        jsp相关-->
+        <!--        jsp相关-->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
@@ -123,17 +123,17 @@
             <artifactId>jstl</artifactId>
         </dependency>
 
-<!--        security相关-->
+        <!--        security相关-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
-<!--        发送邮件相关-->
-         <dependency>
+        <!--        发送邮件相关-->
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
-         </dependency>
+        </dependency>
 
     </dependencies>
 
