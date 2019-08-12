@@ -1,0 +1,308 @@
+2019-08-12 22:15:15.207 [main] INFO  org.sang.App - Starting App on LAPTOP-O1ODD442 with PID 15988 (D:\springboot\springboot\chapter01\target\classes started by 19464 in D:\springboot\springboot\chapter01)
+2019-08-12 22:15:15.210 [main] INFO  org.sang.App - The following profiles are active: dev
+2019-08-12 22:15:17.001 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:15:17.005 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:15:17.133 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 110ms. Found 2 repository interfaces.
+2019-08-12 22:15:17.158 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:15:17.160 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:15:17.190 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.JpaTableDao.
+2019-08-12 22:15:17.191 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.RestFulTableDao.
+2019-08-12 22:15:17.193 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-08-12 22:15:18.187 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$629346fd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:15:18.495 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$e213942f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:15:19.441 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https) 8080 (http)
+2019-08-12 22:15:19.475 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:15:19.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:15:19.668 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-12 22:15:19.669 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-12 22:15:20.224 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-12 22:15:20.244 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring embedded WebApplicationContext
+2019-08-12 22:15:20.244 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4939 ms
+2019-08-12 22:15:20.576 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Cache 'book_cache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'book_cache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-08-12 22:15:21.357 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-12 22:15:21.508 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-12 22:15:21.511 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 22:15:21.826 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-12 22:15:22.142 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 22:15:22.361 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-12 22:15:23.289 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-12 22:15:23.969 [main] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 22:15:26.585 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 22:15:26.703 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-12 22:15:27.026 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-12 22:15:27.915 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@521981d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@18a9762, org.springframework.security.web.header.HeaderWriterFilter@6eed5b68, org.springframework.security.web.authentication.logout.LogoutFilter@5e136445, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1098c1b1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3841e77a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@53e780d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9223122, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27449f65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@181909f0, org.springframework.security.web.session.SessionManagementFilter@20dc2df1, org.springframework.security.web.access.ExceptionTranslationFilter@3d70dab8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@591be976]
+2019-08-12 22:15:27.984 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-08-12 22:15:28.112 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:15:28.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:15:28.929 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) 8080 (http) with context path '/axf'
+2019-08-12 22:15:28.933 [main] INFO  org.sang.App - Started App in 14.387 seconds (JVM running for 15.789)
+2019-08-12 22:16:35.426 [main] INFO  org.sang.App - Starting App on LAPTOP-O1ODD442 with PID 14024 (D:\springboot\springboot\chapter01\target\classes started by 19464 in D:\springboot\springboot\chapter01)
+2019-08-12 22:16:35.430 [main] INFO  org.sang.App - The following profiles are active: dev
+2019-08-12 22:16:37.241 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:16:37.245 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:16:37.346 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86ms. Found 2 repository interfaces.
+2019-08-12 22:16:37.360 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:16:37.361 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:16:37.377 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.JpaTableDao.
+2019-08-12 22:16:37.378 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.RestFulTableDao.
+2019-08-12 22:16:37.379 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-08-12 22:16:38.145 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd4b89fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:16:38.355 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7ccbd730] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:16:39.219 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https) 8080 (http)
+2019-08-12 22:16:39.247 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:16:39.267 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:16:39.428 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-12 22:16:39.429 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-12 22:16:39.953 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-12 22:16:39.972 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring embedded WebApplicationContext
+2019-08-12 22:16:39.972 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4434 ms
+2019-08-12 22:16:40.247 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Cache 'book_cache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'book_cache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-08-12 22:16:40.918 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-12 22:16:41.002 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-12 22:16:41.004 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 22:16:41.191 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-12 22:16:41.454 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 22:16:41.665 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-12 22:16:42.452 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-12 22:16:43.115 [main] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 22:16:45.693 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 22:16:45.795 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-12 22:16:46.190 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-12 22:16:46.977 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1435b17, org.springframework.security.web.context.SecurityContextPersistenceFilter@1fce17b8, org.springframework.security.web.header.HeaderWriterFilter@4a6c33a0, org.springframework.security.web.authentication.logout.LogoutFilter@4ad0465c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71ea9a0d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@f2df380, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2b3b25ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4235e01b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6554f841, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f507d33, org.springframework.security.web.session.SessionManagementFilter@36d1ac55, org.springframework.security.web.access.ExceptionTranslationFilter@7c3920a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@52caa9d8]
+2019-08-12 22:16:47.038 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-08-12 22:16:47.155 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:16:47.697 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:16:47.727 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) 8080 (http) with context path '/axf'
+2019-08-12 22:16:47.731 [main] INFO  org.sang.App - Started App in 12.862 seconds (JVM running for 13.768)
+2019-08-12 22:16:56.419 [https-jsse-nio-8081-exec-6] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 22:16:56.420 [https-jsse-nio-8081-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-12 22:16:56.459 [https-jsse-nio-8081-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 39 ms
+2019-08-12 22:16:56.633 [https-jsse-nio-8081-exec-6] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [117] milliseconds.
+2019-08-12 22:17:02.348 [https-jsse-nio-8081-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-08-12 22:17:57.847 [https-jsse-nio-8081-exec-6] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2019-08-12 22:18:48.692 [main] INFO  org.sang.App - Starting App on LAPTOP-O1ODD442 with PID 8428 (D:\springboot\springboot\chapter01\target\classes started by 19464 in D:\springboot\springboot\chapter01)
+2019-08-12 22:18:48.697 [main] INFO  org.sang.App - The following profiles are active: dev
+2019-08-12 22:18:50.336 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:18:50.339 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:18:50.428 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76ms. Found 2 repository interfaces.
+2019-08-12 22:18:50.440 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:18:50.441 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:18:50.456 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.JpaTableDao.
+2019-08-12 22:18:50.457 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.RestFulTableDao.
+2019-08-12 22:18:50.459 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-08-12 22:18:51.206 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$18242c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:18:51.402 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$81028ff9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:18:52.192 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https) 8080 (http)
+2019-08-12 22:18:52.220 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:18:52.253 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:18:52.440 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-12 22:18:52.440 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-12 22:18:53.015 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-12 22:18:53.031 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring embedded WebApplicationContext
+2019-08-12 22:18:53.031 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4257 ms
+2019-08-12 22:18:53.311 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Cache 'book_cache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'book_cache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-08-12 22:18:53.970 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-12 22:18:54.055 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-12 22:18:54.057 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 22:18:54.315 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-12 22:18:54.591 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 22:18:54.772 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-12 22:18:55.542 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-12 22:18:56.285 [main] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 22:18:59.247 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 22:18:59.340 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-12 22:18:59.698 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-12 22:19:00.557 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ba04fb4, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b4a77be, org.springframework.security.web.header.HeaderWriterFilter@43c25e89, org.springframework.security.web.authentication.logout.LogoutFilter@2d487df4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@181909f0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1fce17b8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@11a8735d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ff1f872, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37b0a724, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59294f29, org.springframework.security.web.session.SessionManagementFilter@3c2406dd, org.springframework.security.web.access.ExceptionTranslationFilter@248227db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c8d382e]
+2019-08-12 22:19:00.620 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-08-12 22:19:00.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:19:01.258 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:19:01.288 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) 8080 (http) with context path '/axf'
+2019-08-12 22:19:01.292 [main] INFO  org.sang.App - Started App in 13.158 seconds (JVM running for 14.081)
+2019-08-12 22:19:09.748 [https-jsse-nio-8081-exec-8] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 22:19:09.748 [https-jsse-nio-8081-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-12 22:19:09.783 [https-jsse-nio-8081-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2019-08-12 22:19:09.951 [https-jsse-nio-8081-exec-8] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [113] milliseconds.
+2019-08-12 22:34:04.486 [main] INFO  org.sang.App - Starting App on LAPTOP-O1ODD442 with PID 11300 (D:\springboot\springboot\chapter01\target\classes started by 19464 in D:\springboot\springboot\chapter01)
+2019-08-12 22:34:04.490 [main] INFO  org.sang.App - The following profiles are active: dev
+2019-08-12 22:34:06.230 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:34:06.234 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:34:06.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 2 repository interfaces.
+2019-08-12 22:34:06.355 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:34:06.356 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:34:06.374 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.JpaTableDao.
+2019-08-12 22:34:06.375 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.RestFulTableDao.
+2019-08-12 22:34:06.377 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-08-12 22:34:07.070 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8c0e896f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:34:07.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$b8ed6a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:34:08.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https) 8080 (http)
+2019-08-12 22:34:08.100 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:34:08.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:34:08.271 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-12 22:34:08.271 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-12 22:34:08.770 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-12 22:34:08.782 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring embedded WebApplicationContext
+2019-08-12 22:34:08.782 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4201 ms
+2019-08-12 22:34:09.045 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Cache 'book_cache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'book_cache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-08-12 22:34:09.698 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-12 22:34:09.785 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-12 22:34:09.787 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 22:34:09.998 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-12 22:34:10.267 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 22:34:10.458 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-12 22:34:11.286 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-12 22:34:11.977 [main] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 22:34:14.762 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 22:34:14.850 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-12 22:34:15.173 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-12 22:34:15.922 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59294f29, org.springframework.security.web.context.SecurityContextPersistenceFilter@53628ff6, org.springframework.security.web.header.HeaderWriterFilter@3c2406dd, org.springframework.security.web.authentication.logout.LogoutFilter@5188c0f2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@113ba21, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@62c019bb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@795d43d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12e5f7cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3da76d3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30c96ea9, org.springframework.security.web.session.SessionManagementFilter@7207cb8b, org.springframework.security.web.access.ExceptionTranslationFilter@5ac3c6cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c3df740]
+2019-08-12 22:34:15.988 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-08-12 22:34:16.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:34:16.754 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:34:16.781 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) 8080 (http) with context path '/axf'
+2019-08-12 22:34:16.786 [main] INFO  org.sang.App - Started App in 12.822 seconds (JVM running for 13.632)
+2019-08-12 22:34:22.043 [https-jsse-nio-8081-exec-7] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 22:34:22.044 [https-jsse-nio-8081-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-12 22:34:22.082 [https-jsse-nio-8081-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 38 ms
+2019-08-12 22:34:22.263 [https-jsse-nio-8081-exec-7] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [123] milliseconds.
+2019-08-12 22:34:25.983 [https-jsse-nio-8081-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /axf/validates
+2019-08-12 22:34:52.969 [main] INFO  org.sang.App - Starting App on LAPTOP-O1ODD442 with PID 15896 (D:\springboot\springboot\chapter01\target\classes started by 19464 in D:\springboot\springboot\chapter01)
+2019-08-12 22:34:52.973 [main] INFO  org.sang.App - The following profiles are active: dev
+2019-08-12 22:34:54.745 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:34:54.748 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:34:54.837 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 2 repository interfaces.
+2019-08-12 22:34:54.853 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:34:54.855 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:34:54.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.JpaTableDao.
+2019-08-12 22:34:54.877 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.RestFulTableDao.
+2019-08-12 22:34:54.879 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-08-12 22:34:55.616 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4706281e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:34:55.834 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$c6867550] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:34:56.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https) 8080 (http)
+2019-08-12 22:34:56.650 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:34:56.673 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:34:56.859 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-12 22:34:56.860 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-12 22:34:57.368 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-12 22:34:57.382 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring embedded WebApplicationContext
+2019-08-12 22:34:57.383 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4305 ms
+2019-08-12 22:34:57.652 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Cache 'book_cache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'book_cache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-08-12 22:34:58.303 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-12 22:34:58.387 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-12 22:34:58.389 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 22:34:58.594 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-12 22:34:58.847 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 22:34:59.048 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-12 22:34:59.888 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-12 22:35:00.548 [main] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 22:35:03.017 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 22:35:03.106 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-12 22:35:03.439 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-12 22:35:04.228 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6af447b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7207cb8b, org.springframework.security.web.header.HeaderWriterFilter@3c2b7322, org.springframework.security.web.authentication.logout.LogoutFilter@6cd0f9a4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@521981d9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@167da81d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@47cce306, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5926f291, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@656dc20f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ba04fb4, org.springframework.security.web.session.SessionManagementFilter@43c25e89, org.springframework.security.web.access.ExceptionTranslationFilter@b0bd567, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26abee34]
+2019-08-12 22:35:04.288 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-08-12 22:35:04.402 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:35:05.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:35:05.167 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) 8080 (http) with context path '/axf'
+2019-08-12 22:35:05.171 [main] INFO  org.sang.App - Started App in 12.779 seconds (JVM running for 13.687)
+2019-08-12 22:35:15.049 [https-jsse-nio-8081-exec-5] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 22:35:15.050 [https-jsse-nio-8081-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-12 22:35:15.095 [https-jsse-nio-8081-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 45 ms
+2019-08-12 22:35:15.269 [https-jsse-nio-8081-exec-5] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [118] milliseconds.
+2019-08-12 22:45:47.300 [main] INFO  org.sang.App - Starting App on LAPTOP-O1ODD442 with PID 1352 (D:\springboot\springboot\chapter01\target\classes started by 19464 in D:\springboot\springboot\chapter01)
+2019-08-12 22:45:47.302 [main] INFO  org.sang.App - The following profiles are active: dev
+2019-08-12 22:45:49.118 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:45:49.120 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:45:49.213 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 2 repository interfaces.
+2019-08-12 22:45:49.228 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:45:49.229 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:45:49.250 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.JpaTableDao.
+2019-08-12 22:45:49.251 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.RestFulTableDao.
+2019-08-12 22:45:49.252 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-08-12 22:45:49.973 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b1b33b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:45:50.206 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ba9b80e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:45:51.011 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https) 8080 (http)
+2019-08-12 22:45:51.059 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:45:51.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:45:51.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-12 22:45:51.285 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-12 22:45:51.823 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-12 22:45:51.838 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring embedded WebApplicationContext
+2019-08-12 22:45:51.838 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4455 ms
+2019-08-12 22:45:52.092 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Cache 'book_cache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'book_cache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-08-12 22:45:52.746 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-12 22:45:52.819 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-12 22:45:52.820 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 22:45:53.037 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-12 22:45:53.276 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 22:45:53.467 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-12 22:45:54.277 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-12 22:45:54.920 [main] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 22:45:57.271 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 22:45:57.361 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-12 22:45:57.684 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-12 22:45:58.443 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19fdcaba, org.springframework.security.web.context.SecurityContextPersistenceFilter@5926f291, org.springframework.security.web.header.HeaderWriterFilter@53628ff6, org.springframework.security.web.authentication.logout.LogoutFilter@43376a03, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c581e65, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e136445, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@35738a92, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37b0a724, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7334dcbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10ec54c3, org.springframework.security.web.session.SessionManagementFilter@3841e77a, org.springframework.security.web.access.ExceptionTranslationFilter@3c2406dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bba628]
+2019-08-12 22:45:58.505 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-08-12 22:45:58.610 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:45:59.232 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:45:59.255 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) 8080 (http) with context path '/axf'
+2019-08-12 22:45:59.260 [main] INFO  org.sang.App - Started App in 12.444 seconds (JVM running for 13.332)
+2019-08-12 22:46:02.665 [https-jsse-nio-8081-exec-6] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 22:46:02.665 [https-jsse-nio-8081-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-12 22:46:02.707 [https-jsse-nio-8081-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 41 ms
+2019-08-12 22:46:02.883 [https-jsse-nio-8081-exec-6] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [122] milliseconds.
+2019-08-12 22:47:04.846 [main] INFO  org.sang.App - Starting App on LAPTOP-O1ODD442 with PID 3816 (D:\springboot\springboot\chapter01\target\classes started by 19464 in D:\springboot\springboot\chapter01)
+2019-08-12 22:47:04.849 [main] INFO  org.sang.App - The following profiles are active: dev
+2019-08-12 22:47:06.492 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:47:06.495 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:47:06.590 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 2 repository interfaces.
+2019-08-12 22:47:06.607 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-12 22:47:06.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-12 22:47:06.629 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.JpaTableDao.
+2019-08-12 22:47:06.630 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.sang.dao.RestFulTableDao.
+2019-08-12 22:47:06.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-08-12 22:47:07.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f5c53910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:47:07.597 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$75458642] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-12 22:47:08.391 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (https) 8080 (http)
+2019-08-12 22:47:08.414 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:47:08.432 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:47:08.601 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-12 22:47:08.602 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-08-12 22:47:09.079 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-12 22:47:09.092 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring embedded WebApplicationContext
+2019-08-12 22:47:09.092 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4164 ms
+2019-08-12 22:47:09.346 [main] WARN  net.sf.ehcache.config.CacheConfiguration - Cache 'book_cache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'book_cache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+2019-08-12 22:47:09.952 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-12 22:47:10.036 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-12 22:47:10.037 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-08-12 22:47:10.257 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-12 22:47:10.508 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-08-12 22:47:10.699 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2019-08-12 22:47:11.443 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-12 22:47:12.062 [main] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-08-12 22:47:14.439 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 22:47:14.525 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-12 22:47:14.887 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-08-12 22:47:15.686 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34ccce55, org.springframework.security.web.context.SecurityContextPersistenceFilter@37b0a724, org.springframework.security.web.header.HeaderWriterFilter@12e5f7cb, org.springframework.security.web.authentication.logout.LogoutFilter@6ca6d195, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11a8735d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6554f841, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7668edd7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36ba9aa3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43e7ca6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10374cae, org.springframework.security.web.session.SessionManagementFilter@6d821475, org.springframework.security.web.access.ExceptionTranslationFilter@4a7b42db, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ebefdfa]
+2019-08-12 22:47:15.746 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-08-12 22:47:15.870 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8081"]
+2019-08-12 22:47:16.327 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-08-12 22:47:16.357 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (https) 8080 (http) with context path '/axf'
+2019-08-12 22:47:16.362 [main] INFO  org.sang.App - Started App in 11.991 seconds (JVM running for 12.83)
+2019-08-12 22:47:24.257 [https-jsse-nio-8081-exec-6] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/axf] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 22:47:24.257 [https-jsse-nio-8081-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-12 22:47:24.294 [https-jsse-nio-8081-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+2019-08-12 22:47:24.476 [https-jsse-nio-8081-exec-6] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [129] milliseconds.
+2019-08-12 22:47:29.095 [https-jsse-nio-8081-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /axf/validatesemail=123&&name=%E5%BC%A0%E4%B8%89

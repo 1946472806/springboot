@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="" />
+    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/ValidationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/ValidationGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/interfaces/ValidationGroup1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/interfaces/ValidationGroup2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/ValidationGroupTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/ValidationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/scheduled/MySchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/scheduled/MySchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/scheduled/MySchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/scheduled/MySchedule.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +45,10 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="Tag Library Descriptor" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -210,6 +222,7 @@
       <workItem from="1565453865051" duration="137000" />
       <workItem from="1565504015344" duration="14854000" />
       <workItem from="1565535054097" duration="2254000" />
+      <workItem from="1565615594640" duration="3898000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>

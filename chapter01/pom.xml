@@ -135,6 +135,12 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
 
+<!--        数据校验有关-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
