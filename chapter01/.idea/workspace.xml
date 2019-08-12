@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/ValidationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/controller/ValidationGroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/interfaces/ValidationGroup1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/interfaces/ValidationGroup2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/ValidationGroupTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sang/model/ValidationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ValidationMessages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sang/scheduled/MySchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sang/scheduled/MySchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/sang/scheduled/MySchedule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/sang/scheduled/MySchedule.class" afterDir="false" />
-    </list>
+    <list default="true" id="bac2c441-48be-475e-aae4-5fae6919335c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +210,7 @@
       <workItem from="1565453865051" duration="137000" />
       <workItem from="1565504015344" duration="14854000" />
       <workItem from="1565535054097" duration="2254000" />
-      <workItem from="1565615594640" duration="3898000" />
+      <workItem from="1565615594640" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="全局数据控制，请求参数预处理，自定义错误页">
       <created>1564585286142</created>
@@ -322,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565537394289</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="集成数据检验功能">
+      <created>1565621425621</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565621425622</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +352,8 @@
     <MESSAGE value="集成邮件发送功能" />
     <MESSAGE value="集成定时任务功能" />
     <MESSAGE value="集成日志功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成日志功能" />
+    <MESSAGE value="集成数据检验功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成数据检验功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
