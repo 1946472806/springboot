@@ -16,7 +16,7 @@ public class UnitTestSer {
     UnitTestService unitTestService;
 
     @Test
-    public void contextLoads(){
+    public void contextLoads() {
         String re_test = unitTestService.unitTest("胡歌");
         Assert.assertThat(re_test, Matchers.is("Test~胡歌~"));
     }

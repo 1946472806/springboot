@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JspController {
     @GetMapping("/jsp")
-    public String jspTest(){
+    public String jspTest() {
         return "my";
     }
 }

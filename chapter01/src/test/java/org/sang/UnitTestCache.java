@@ -15,12 +15,12 @@ public class UnitTestCache {
     BookService bookService;
 
     @Test
-    public void cacheTest(){
+    public void cacheTest() {
         bookService.getBookById(10);
         bookService.getBookById(10);
         bookService.deleteBookById(10);
         Book book = bookService.getBookById(11);
-        System.out.println("book:"+book);
+        System.out.println("book:" + book);
         Book book1 = new Book();
         book1.setName("琅琊榜");
         book1.setAuthor("胡歌");
@@ -28,6 +28,6 @@ public class UnitTestCache {
         bookService.addBook(book1);
 
         Book book2 = bookService.getBookById(11);
-        System.out.println("book2:"+book2);
+        System.out.println("book2:" + book2);
     }
 }

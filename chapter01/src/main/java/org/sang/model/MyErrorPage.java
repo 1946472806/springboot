@@ -20,10 +20,11 @@ import java.util.Map;
 public class MyErrorPage extends BasicErrorController {
     @Autowired
     public MyErrorPage(ErrorAttributes errorAttributes,
-                             ServerProperties serverProperties,
-                             List<ErrorViewResolver> errorViewResolvers) {
+                       ServerProperties serverProperties,
+                       List<ErrorViewResolver> errorViewResolvers) {
         super(errorAttributes, serverProperties.getError(), errorViewResolvers);
     }
+
     @Override
     public ModelAndView errorHtml(HttpServletRequest request,
                                   HttpServletResponse response) {
@@ -33,6 +34,7 @@ public class MyErrorPage extends BasicErrorController {
         model.put("custommsg", "出错啦！");
         return new ModelAndView("myErrorPage", model, status);
     }
+
     @Override
     public ResponseEntity<Map<String, Object>> error(HttpServletRequest request) {
         Map<String, Object> body = getErrorAttributes(request,

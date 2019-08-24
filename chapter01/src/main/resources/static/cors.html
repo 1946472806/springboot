@@ -14,28 +14,30 @@
 <script>
     function getData() {
         $.ajax({
-            url:'https://127.0.0.1:8080/bs',
-            type:'get',
-            success:function (msg) {
+            url: 'https://127.0.0.1:8080/bs',
+            type: 'get',
+            success: function (msg) {
                 $("#contentDiv").html(msg);
             }
         })
     }
+
     function deleteData() {
         $.ajax({
-            url:'https://127.0.0.1:8080/axf/cors/99',
-            type:'delete',
-            success:function (msg) {
+            url: 'https://127.0.0.1:8080/axf/cors/99',
+            type: 'delete',
+            success: function (msg) {
                 $("#deleteResult").html(msg);
             }
         })
     }
+
     function postData() {
         $.ajax({
-            url:'https://127.0.0.1:8080/axf/cors',
-            type:'post',
-            data:{name:'三国演义'},
-            success:function (msg) {
+            url: 'https://127.0.0.1:8080/axf/cors',
+            type: 'post',
+            data: {name: '三国演义'},
+            success: function (msg) {
                 $("#contentDiv").html(msg);
             }
         })

@@ -17,9 +17,9 @@ public class UserTableSecurity implements UserDetails {
     private List<RoleTableSecurity> roles;
 
     @Override
-    public Collection<? extends GrantedAuthority> getAuthorities(){
+    public Collection<? extends GrantedAuthority> getAuthorities() {
         List<SimpleGrantedAuthority> authorities = new ArrayList<>();
-        for (RoleTableSecurity role:roles){
+        for (RoleTableSecurity role : roles) {
             authorities.add(new SimpleGrantedAuthority(role.getName()));
         }
         return authorities;

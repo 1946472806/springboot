@@ -5,10 +5,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SecurityRegService {
-    public int reg(String username,String password){
+    public int reg(String username, String password) {
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(10);
         String encodePassword = encoder.encode(password);
-        return saveToDb(username,encodePassword);
+        return saveToDb(username, encodePassword);
     }
 
     private int saveToDb(String username, String encodePasswod) {

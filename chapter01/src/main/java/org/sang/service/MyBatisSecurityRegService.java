@@ -12,10 +12,11 @@ import org.springframework.stereotype.Service;
 public class MyBatisSecurityRegService implements UserDetailsService {
     @Autowired
     UserTableMapper userTableMapper;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         UserTableSecurity userTableSecurity = userTableMapper.loadUserByUsername(username);
-        if (userTableSecurity == null){
+        if (userTableSecurity == null) {
             throw new UsernameNotFoundException("账户不存在");
         }
         userTableSecurity.setRoles(userTableMapper.getUserRolesByUid(userTableSecurity.getId()));

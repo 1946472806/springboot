@@ -29,42 +29,43 @@ public class MailService {
     }
 
     //发送带附件的邮件
-    public void sendAttachFileMail(String from, String to, String cc, String subject, String content, File file){
+    public void sendAttachFileMail(String from, String to, String cc, String subject, String content, File file) {
         try {
             MimeMessage message = javaMailSender.createMimeMessage();
-            MimeMessageHelper helper = new MimeMessageHelper(message,true);
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
             helper.setFrom(from);
             helper.setTo(to);
             helper.setCc(cc);
             helper.setSubject(subject);
             helper.setText(content);
-            helper.addAttachment(file.getName(),file);
+            helper.addAttachment(file.getName(), file);
             javaMailSender.send(message);
-        }catch (MessagingException e){
+        } catch (MessagingException e) {
             e.printStackTrace();
         }
     }
 
     @Autowired
     TemplateEngine templateEngine;
+
     //使用Thymeleaf构建邮件模板
-    public void sendHtmlMailThymeleaf(String from, String to, String cc, String subject,String username,String gender){
+    public void sendHtmlMailThymeleaf(String from, String to, String cc, String subject, String username, String gender) {
         Context ctx = new Context();
-        ctx.setVariable("username",username);
-        ctx.setVariable("gender",gender);
-        String mails = templateEngine.process("mail.html",ctx);
+        ctx.setVariable("username", username);
+        ctx.setVariable("gender", gender);
+        String mails = templateEngine.process("mail.html", ctx);
 
         try {
             MimeMessage message = javaMailSender.createMimeMessage();
-            MimeMessageHelper helper = new MimeMessageHelper(message,true);
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
             helper.setFrom(from);
             helper.setTo(to);
             helper.setCc(cc);
             helper.setSubject(subject);
-            helper.setText(mails,true);
+            helper.setText(mails, true);
             javaMailSender.send(message);
-        }catch (MessagingException e){
-            System.out.println("发送失败:"+e);
+        } catch (MessagingException e) {
+            System.out.println("发送失败:" + e);
         }
     }
 }

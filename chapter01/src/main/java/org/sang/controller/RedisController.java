@@ -16,14 +16,15 @@ public class RedisController {
     RedisTemplate redisTemplate;
     @Autowired
     StringRedisTemplate stringRedisTemplate;
+
     @GetMapping("/redis")
-    public void redis(){
-        ValueOperations<String,String> ops1 = stringRedisTemplate.opsForValue();
-        ops1.set("name","胡歌");
+    public void redis() {
+        ValueOperations<String, String> ops1 = stringRedisTemplate.opsForValue();
+        ops1.set("name", "胡歌");
         String name = ops1.get("name");
         System.out.println(name);
 
-        ValueOperations<String,String> ops2 = stringRedisTemplate.opsForValue();
+        ValueOperations<String, String> ops2 = stringRedisTemplate.opsForValue();
         RedisTable redisTable = new RedisTable();
         redisTable.setId(1);
         redisTable.setName("绿茶");

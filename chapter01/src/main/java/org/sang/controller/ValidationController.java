@@ -13,11 +13,11 @@ import java.util.List;
 @RestController
 public class ValidationController {
     @GetMapping("/validate")
-    public List<String> checkValidation(@Validated ValidationTable validationTable, BindingResult result){
+    public List<String> checkValidation(@Validated ValidationTable validationTable, BindingResult result) {
         List<String> errors = new ArrayList<>();
-        if (result.hasErrors()){
+        if (result.hasErrors()) {
             List<ObjectError> allErrors = result.getAllErrors();
-            for (ObjectError error:allErrors){
+            for (ObjectError error : allErrors) {
                 errors.add(error.getDefaultMessage());
             }
         }

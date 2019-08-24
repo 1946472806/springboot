@@ -11,12 +11,12 @@ public class AopController {
     UserService userService;
 
     @GetMapping("/getUserById")
-    public String getUserById(Integer id){
+    public String getUserById(Integer id) {
         return userService.getUserById(id);
     }
 
     @GetMapping("/deleteUserById")
-    public void deleteUserById(Integer id){
+    public void deleteUserById(Integer id) {
         userService.deleteUserById(id);
     }
 }

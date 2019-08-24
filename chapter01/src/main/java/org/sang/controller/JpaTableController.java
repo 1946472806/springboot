@@ -16,15 +16,15 @@ public class JpaTableController {
     JpaTableService jpaTableService;
 
     @GetMapping("/findAll")
-    public void findAll(){
-        PageRequest pageable = PageRequest.of(1,1);
+    public void findAll() {
+        PageRequest pageable = PageRequest.of(1, 1);
         Page<JpaTable> page = jpaTableService.getJpaTableByPage(pageable);
-        System.out.println("总页数:"+page.getTotalPages());
-        System.out.println("总记录数:"+page.getTotalElements());
-        System.out.println("查询结果:"+page.getContent());
-        System.out.println("当前页数:"+(page.getNumber()+1));
-        System.out.println("当前页记录数:"+page.getNumberOfElements());
-        System.out.println("每页记录数:"+page.getSize());
+        System.out.println("总页数:" + page.getTotalPages());
+        System.out.println("总记录数:" + page.getTotalElements());
+        System.out.println("查询结果:" + page.getContent());
+        System.out.println("当前页数:" + (page.getNumber() + 1));
+        System.out.println("当前页记录数:" + page.getNumberOfElements());
+        System.out.println("每页记录数:" + page.getSize());
     }
 
 //    @GetMapping("/search")
@@ -43,7 +43,7 @@ public class JpaTableController {
 //    }
 
     @GetMapping("/save")
-    public void save(){
+    public void save() {
         JpaTable jpaTable = new JpaTable();
         jpaTable.setAuthor("鲁迅");
         jpaTable.setName("呐喊");

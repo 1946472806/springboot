@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyBatisSecurityController {
     @GetMapping("/admins/url")
-    public String adminsSecurity(){
+    public String adminsSecurity() {
         return "admins";
     }
 }

@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 public class BookController {
     @GetMapping("/books")
-    public ModelAndView books(){
+    public ModelAndView books() {
         List<Book> books = new ArrayList<>();
         Book b = new Book();
         b.setId(2);
@@ -26,37 +26,38 @@ public class BookController {
         books.add(b);
         books.add(c);
         ModelAndView mv = new ModelAndView();
-        mv.addObject("books",books);
+        mv.addObject("books", books);
         mv.setViewName("books");
         return mv;
     }
 
     @Autowired
     BookService bookService;
+
     @GetMapping("/bookOps")
-    public void bookOps(){
+    public void bookOps() {
         Book b1 = new Book();
         b1.setName("西厢记");
         b1.setAuthor("王实甫");
         b1.setPrice((float) 20);
         int i = bookService.addBook(b1);
-        System.out.println("addBook>>>"+i);
+        System.out.println("addBook>>>" + i);
 
         Book b2 = new Book();
         b2.setId(11);
         b2.setName("朝花夕拾");
         b2.setAuthor("鲁迅");
         int updateBook = bookService.updateBook(b2);
-        System.out.println("updateBook>>>"+updateBook);
+        System.out.println("updateBook>>>" + updateBook);
 
         Book b3 = bookService.getBookById(8);
-        System.out.println("getBookById>>>"+b3);
+        System.out.println("getBookById>>>" + b3);
 
         int deleteBookById = bookService.deleteBookById(8);
-        System.out.println("deleteBookById>>>"+deleteBookById);
+        System.out.println("deleteBookById>>>" + deleteBookById);
 
         List<Book> allBooks = bookService.getAllBooks();
-        System.out.println("getAllBooks>>>"+allBooks);
+        System.out.println("getAllBooks>>>" + allBooks);
 
     }
 }

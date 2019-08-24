@@ -9,5 +9,6 @@ import java.util.List;
 @Mapper
 public interface UserTableMapper {
     UserTableSecurity loadUserByUsername(String username);
+
     List<RoleTableSecurity> getUserRolesByUid(Integer id);
 }

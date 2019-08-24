@@ -16,19 +16,20 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class MyBatisSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     MyBatisSecurityRegService myBatisSecurityRegService;
+
     @Bean
-    PasswordEncoder passwordEncoder(){
+    PasswordEncoder passwordEncoder() {
 //        return NoOpPasswordEncoder.getInstance();  不加密
         return new BCryptPasswordEncoder(10);  //强哈希加密
     }
 
     @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception{
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(myBatisSecurityRegService); //信息保存在MyBatis数据库
     }
 
     @Override
-    protected void configure(HttpSecurity http) throws Exception{
+    protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 .antMatchers("/admins/**")
                 .hasRole("admin")

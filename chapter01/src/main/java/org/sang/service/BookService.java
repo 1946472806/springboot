@@ -39,30 +39,30 @@ public class BookService {
 //    }
 //    mysql配置的DAO end
 
-//    mybatis配置的mapper  begin
+    //    mybatis配置的mapper  begin
     @Autowired
     BookMapper bookMapper;
 
     @Cacheable
-    public Book getBookById(Integer id){
+    public Book getBookById(Integer id) {
         return bookMapper.getBookById(id);
     }
 
-    public List<Book> getAllBooks(){
+    public List<Book> getAllBooks() {
         return bookMapper.getAllBooks();
     }
 
-    public int addBook(Book book){
+    public int addBook(Book book) {
         return bookMapper.addBook(book);
     }
 
     @CachePut(key = "#book.id")
-    public int updateBook(Book book){
+    public int updateBook(Book book) {
         return bookMapper.updateBookById(book);
     }
 
     @CacheEvict(key = "#id")
-    public int deleteBookById(Integer id){
+    public int deleteBookById(Integer id) {
         return bookMapper.deleteBookById(id);
     }
 

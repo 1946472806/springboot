@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class IcoController {
-    @RequestMapping("/index")
-    public String ico(){
-        return "index";
+    @RequestMapping("/indexs")
+    public String ico() {
+        return "indexs";
     }
 }
 

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UnitTestController {
     @GetMapping("/unitTest")
-    public String testapi(String name){
+    public String testapi(String name) {
         return "胡歌";
     }
 }

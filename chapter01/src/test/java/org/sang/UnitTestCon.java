@@ -26,22 +26,21 @@ public class UnitTestCon {
     private MockMvc mockMvc;
 
     @Before
-    public void before(){
+    public void before() {
         mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
     }
 
     @Test
-    public void testCon() throws Exception{
+    public void testCon() throws Exception {
         MvcResult mvcResult = mockMvc.perform(
                 MockMvcRequestBuilders.get("/unitTest")
-                .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-                .param("name","胡歌")
+                        .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+                        .param("name", "胡歌")
         ).andExpect(MockMvcResultMatchers.status().isOk())
                 .andDo(MockMvcResultHandlers.print())
                 .andReturn();
         System.out.println(mvcResult.getResponse().getContentAsString());
     }
-
 
 
 }

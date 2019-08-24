@@ -15,7 +15,7 @@ public class CustomExceptionHandler {
     //这个是返回模板
     public ModelAndView uploadException(MaxUploadSizeExceededException e, HttpServletResponse resp) throws IOException {
         ModelAndView mv = new ModelAndView();
-        mv.addObject("msg","上传文件大小超出限制!");
+        mv.addObject("msg", "上传文件大小超出限制!");
         mv.setViewName("error");
         return mv;
     }

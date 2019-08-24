@@ -14,6 +14,7 @@ import java.io.File;
 public class SendmailApplicationTests {
     @Autowired
     MailService mailService;
+
     //发送简单邮件
     @Test
     public void sendSimpleMail() {
@@ -26,7 +27,7 @@ public class SendmailApplicationTests {
 
     //发送带附件的邮件
     @Test
-    public void sendAttachFileMail(){
+    public void sendAttachFileMail() {
         mailService.sendAttachFileMail(
                 "1946472806@qq.com",
                 "1946472806@qq.com",
@@ -38,7 +39,7 @@ public class SendmailApplicationTests {
 
     //使用Thymeleaf构建邮件模板
     @Test
-    public void sendHtmlMailThymeleafs(){
+    public void sendHtmlMailThymeleafs() {
         mailService.sendHtmlMailThymeleaf(
                 "1946472806@qq.com",
                 "1946472806@qq.com",

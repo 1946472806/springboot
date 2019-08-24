@@ -14,11 +14,11 @@ public class JpaTableService {
     @Autowired
     JpaTableDao jpaTableDao;
 
-    public void addJpaTable(JpaTable jpaTable){
+    public void addJpaTable(JpaTable jpaTable) {
         jpaTableDao.save(jpaTable);
     }
 
-    public Page<JpaTable> getJpaTableByPage(Pageable pageable){
+    public Page<JpaTable> getJpaTableByPage(Pageable pageable) {
         return jpaTableDao.findAll(pageable);
     }
 
@@ -34,11 +34,11 @@ public class JpaTableService {
 //        return jpaTableDao.getMaxIdJapTable();
 //    }
 
-    public String getJpaTableByIdAndAuthor(String author,Integer id){
-        return jpaTableDao.getJpaTableByIdAndAuthor(author,id);
+    public String getJpaTableByIdAndAuthor(String author, Integer id) {
+        return jpaTableDao.getJpaTableByIdAndAuthor(author, id);
     }
 
-    public String getJpaTableByIdAndName(String name,Integer id){
-        return jpaTableDao.getJpaTableByIdAndName(name,id);
+    public String getJpaTableByIdAndName(String name, Integer id) {
+        return jpaTableDao.getJpaTableByIdAndName(name, id);
     }
 }

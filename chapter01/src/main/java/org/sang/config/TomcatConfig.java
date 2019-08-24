@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class TomcatConfig {
     @Bean
     TomcatServletWebServerFactory tomcatServletWebServerFactory() {
-        TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory(){
+        TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory() {
             @Override
             protected void postProcessContext(Context context) {
                 SecurityConstraint constraint = new SecurityConstraint();
@@ -26,6 +26,7 @@ public class TomcatConfig {
         factory.addAdditionalTomcatConnectors(createTomcatConnector());
         return factory;
     }
+
     private Connector createTomcatConnector() {
         Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
         connector.setScheme("http");

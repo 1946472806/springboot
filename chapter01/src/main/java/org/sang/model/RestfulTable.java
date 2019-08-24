@@ -8,7 +8,7 @@ public class RestfulTable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "name",nullable = true)
+    @Column(name = "name", nullable = true)
     private String name;
     private String author;
 
@@ -22,16 +22,28 @@ public class RestfulTable {
                 '}';
     }
 
-    public Integer getId(){return id;}
+    public Integer getId() {
+        return id;
+    }
 
-    public void setId(Integer id){this.id=id;}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-    public String getName(){return name;}
+    public String getName() {
+        return name;
+    }
 
-    public void setName(String name){this.name=name;}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    public String getAuthor(){return author;}
+    public String getAuthor() {
+        return author;
+    }
 
-    public void setAuthor(String author){this.author=author;}
+    public void setAuthor(String author) {
+        this.author = author;
+    }
 
 }

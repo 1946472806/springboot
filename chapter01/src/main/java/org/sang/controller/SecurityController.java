@@ -6,22 +6,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SecurityController {
     @GetMapping("/admin/url")
-    public String adminSecurity(){
+    public String adminSecurity() {
         return "admin";
     }
 
     @GetMapping("/user/url")
-    public String userSecurity(){
+    public String userSecurity() {
         return "user";
     }
 
     @GetMapping("/db/url")
-    public String dbSecurity(){
+    public String dbSecurity() {
         return "db";
     }
 
     @GetMapping("url")
-    public String Security(){
+    public String Security() {
         return "spring security~";
     }
 }

@@ -12,8 +12,8 @@ public class RestFulService {
     @Autowired
     RestFulTableDao restFulTableDao;
 
-    public List<RestfulTable> getauthor(String author){
-        System.out.println("..................."+author);
+    public List<RestfulTable> getauthor(String author) {
+        System.out.println("..................." + author);
         return restFulTableDao.getAuthorLike(author);
     }
 }
