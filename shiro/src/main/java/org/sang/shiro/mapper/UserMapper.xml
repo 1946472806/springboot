@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sang.shiro.mapper.UserMapper">
+    <resultMap id="UserMap" type="org.sang.shiro.bean.UserBean">
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="userAccount" property="userAccount" jdbcType="VARCHAR" />
+        <result column="userRole" property="userRole" jdbcType="VARCHAR" />
+        <result column="createDate" property="createDate" jdbcType="TIMESTAMP" />
+        <result column="updateDate" property="updateDate" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <select id="getUser" resultMap="UserMap">
+        select id,userAccount,userRole,createDate,updateDate
+        from USER_TABLE
+        WHERE 1 = 1;
+    </select>
+</mapper>
