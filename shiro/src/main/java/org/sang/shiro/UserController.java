@@ -1,5 +1,6 @@
 package org.sang.shiro;
 
+import net.sf.json.JSONObject;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -24,13 +25,23 @@ public class UserController {
             model.addAttribute("error", "用户名或密码输入错误!");
             return "login";
         }
-        return "redirect:/index";
+        return "redirect:/admin";
     }
     @RequiresRoles("admin")
     @GetMapping("/admin")
     public String admin() {
         return "admin";
     }
+
+    @RequiresRoles("admin")
+    @GetMapping("/other")
+    public JSONObject other() {
+        JSONObject jsonObj = new JSONObject();
+        jsonObj.put("status","ok");
+        jsonObj.put("msg", "error");
+        return jsonObj;
+    }
+
     @RequiresRoles(value = {"admin","user"},logical = Logical.OR)
     @GetMapping("/user")
     public String user() {

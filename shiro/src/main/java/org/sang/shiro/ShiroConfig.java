@@ -1,6 +1,5 @@
 package org.sang.shiro;
 
-import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.realm.text.TextConfigurationRealm;
 import org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition;
@@ -42,8 +41,8 @@ public class ShiroConfig {
         chainDefinition.addPathDefinition("/**", "authc");
         return chainDefinition;
     }
-    @Bean
-    public ShiroDialect shiroDialect() {
-        return new ShiroDialect();
-    }
+//    @Bean
+//    public ShiroDialect shiroDialect() {
+//        return new ShiroDialect();
+//    }
 }
